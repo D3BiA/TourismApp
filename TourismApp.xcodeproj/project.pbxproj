@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83071F0D1938AD6400ED2E63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F0C1938AD6400ED2E63 /* Foundation.framework */; };
+		83071F0F1938AD6400ED2E63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F0E1938AD6400ED2E63 /* CoreGraphics.framework */; };
+		83071F111938AD6400ED2E63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F101938AD6400ED2E63 /* UIKit.framework */; };
+		83071F171938AD6400ED2E63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83071F151938AD6400ED2E63 /* InfoPlist.strings */; };
+		83071F191938AD6400ED2E63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83071F181938AD6400ED2E63 /* main.m */; };
+		83071F1D1938AD6400ED2E63 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83071F1C1938AD6400ED2E63 /* TAAppDelegate.m */; };
+		83071F201938AD6400ED2E63 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83071F1E1938AD6400ED2E63 /* Main_iPhone.storyboard */; };
+		83071F231938AD6400ED2E63 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83071F211938AD6400ED2E63 /* Main_iPad.storyboard */; };
+		83071F261938AD6400ED2E63 /* TAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83071F251938AD6400ED2E63 /* TAViewController.m */; };
+		83071F281938AD6400ED2E63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83071F271938AD6400ED2E63 /* Images.xcassets */; };
+		83071F2F1938AD6500ED2E63 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F2E1938AD6500ED2E63 /* XCTest.framework */; };
+		83071F301938AD6500ED2E63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F0C1938AD6400ED2E63 /* Foundation.framework */; };
+		83071F311938AD6500ED2E63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F101938AD6400ED2E63 /* UIKit.framework */; };
+		83071F391938AD6500ED2E63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83071F371938AD6500ED2E63 /* InfoPlist.strings */; };
+		83071F3B1938AD6500ED2E63 /* TourismAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83071F3A1938AD6500ED2E63 /* TourismAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83071F321938AD6500ED2E63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83071F011938AD6400ED2E63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83071F081938AD6400ED2E63;
+			remoteInfo = TourismApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83071F091938AD6400ED2E63 /* TourismApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourismApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83071F0C1938AD6400ED2E63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83071F0E1938AD6400ED2E63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83071F101938AD6400ED2E63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83071F141938AD6400ED2E63 /* TourismApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TourismApp-Info.plist"; sourceTree = "<group>"; };
+		83071F161938AD6400ED2E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83071F181938AD6400ED2E63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83071F1A1938AD6400ED2E63 /* TourismApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TourismApp-Prefix.pch"; sourceTree = "<group>"; };
+		83071F1B1938AD6400ED2E63 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		83071F1C1938AD6400ED2E63 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		83071F1F1938AD6400ED2E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		83071F221938AD6400ED2E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		83071F241938AD6400ED2E63 /* TAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAViewController.h; sourceTree = "<group>"; };
+		83071F251938AD6400ED2E63 /* TAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAViewController.m; sourceTree = "<group>"; };
+		83071F271938AD6400ED2E63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83071F2D1938AD6500ED2E63 /* TourismAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourismAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83071F2E1938AD6500ED2E63 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		83071F361938AD6500ED2E63 /* TourismAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TourismAppTests-Info.plist"; sourceTree = "<group>"; };
+		83071F381938AD6500ED2E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83071F3A1938AD6500ED2E63 /* TourismAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TourismAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83071F061938AD6400ED2E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83071F0F1938AD6400ED2E63 /* CoreGraphics.framework in Frameworks */,
+				83071F111938AD6400ED2E63 /* UIKit.framework in Frameworks */,
+				83071F0D1938AD6400ED2E63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83071F2A1938AD6500ED2E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83071F2F1938AD6500ED2E63 /* XCTest.framework in Frameworks */,
+				83071F311938AD6500ED2E63 /* UIKit.framework in Frameworks */,
+				83071F301938AD6500ED2E63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83071F001938AD6400ED2E63 = {
+			isa = PBXGroup;
+			children = (
+				83071F121938AD6400ED2E63 /* TourismApp */,
+				83071F341938AD6500ED2E63 /* TourismAppTests */,
+				83071F0B1938AD6400ED2E63 /* Frameworks */,
+				83071F0A1938AD6400ED2E63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83071F0A1938AD6400ED2E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83071F091938AD6400ED2E63 /* TourismApp.app */,
+				83071F2D1938AD6500ED2E63 /* TourismAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83071F0B1938AD6400ED2E63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83071F0C1938AD6400ED2E63 /* Foundation.framework */,
+				83071F0E1938AD6400ED2E63 /* CoreGraphics.framework */,
+				83071F101938AD6400ED2E63 /* UIKit.framework */,
+				83071F2E1938AD6500ED2E63 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83071F121938AD6400ED2E63 /* TourismApp */ = {
+			isa = PBXGroup;
+			children = (
+				83071F1B1938AD6400ED2E63 /* TAAppDelegate.h */,
+				83071F1C1938AD6400ED2E63 /* TAAppDelegate.m */,
+				83071F1E1938AD6400ED2E63 /* Main_iPhone.storyboard */,
+				83071F211938AD6400ED2E63 /* Main_iPad.storyboard */,
+				83071F241938AD6400ED2E63 /* TAViewController.h */,
+				83071F251938AD6400ED2E63 /* TAViewController.m */,
+				83071F271938AD6400ED2E63 /* Images.xcassets */,
+				83071F131938AD6400ED2E63 /* Supporting Files */,
+			);
+			path = TourismApp;
+			sourceTree = "<group>";
+		};
+		83071F131938AD6400ED2E63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83071F141938AD6400ED2E63 /* TourismApp-Info.plist */,
+				83071F151938AD6400ED2E63 /* InfoPlist.strings */,
+				83071F181938AD6400ED2E63 /* main.m */,
+				83071F1A1938AD6400ED2E63 /* TourismApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83071F341938AD6500ED2E63 /* TourismAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				83071F3A1938AD6500ED2E63 /* TourismAppTests.m */,
+				83071F351938AD6500ED2E63 /* Supporting Files */,
+			);
+			path = TourismAppTests;
+			sourceTree = "<group>";
+		};
+		83071F351938AD6500ED2E63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83071F361938AD6500ED2E63 /* TourismAppTests-Info.plist */,
+				83071F371938AD6500ED2E63 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83071F081938AD6400ED2E63 /* TourismApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83071F3E1938AD6500ED2E63 /* Build configuration list for PBXNativeTarget "TourismApp" */;
+			buildPhases = (
+				83071F051938AD6400ED2E63 /* Sources */,
+				83071F061938AD6400ED2E63 /* Frameworks */,
+				83071F071938AD6400ED2E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TourismApp;
+			productName = TourismApp;
+			productReference = 83071F091938AD6400ED2E63 /* TourismApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83071F2C1938AD6500ED2E63 /* TourismAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83071F411938AD6500ED2E63 /* Build configuration list for PBXNativeTarget "TourismAppTests" */;
+			buildPhases = (
+				83071F291938AD6500ED2E63 /* Sources */,
+				83071F2A1938AD6500ED2E63 /* Frameworks */,
+				83071F2B1938AD6500ED2E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83071F331938AD6500ED2E63 /* PBXTargetDependency */,
+			);
+			name = TourismAppTests;
+			productName = TourismAppTests;
+			productReference = 83071F2D1938AD6500ED2E63 /* TourismAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83071F011938AD6400ED2E63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alex De Biasi";
+				TargetAttributes = {
+					83071F2C1938AD6500ED2E63 = {
+						TestTargetID = 83071F081938AD6400ED2E63;
+					};
+				};
+			};
+			buildConfigurationList = 83071F041938AD6400ED2E63 /* Build configuration list for PBXProject "TourismApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83071F001938AD6400ED2E63;
+			productRefGroup = 83071F0A1938AD6400ED2E63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83071F081938AD6400ED2E63 /* TourismApp */,
+				83071F2C1938AD6500ED2E63 /* TourismAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83071F071938AD6400ED2E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83071F231938AD6400ED2E63 /* Main_iPad.storyboard in Resources */,
+				83071F281938AD6400ED2E63 /* Images.xcassets in Resources */,
+				83071F201938AD6400ED2E63 /* Main_iPhone.storyboard in Resources */,
+				83071F171938AD6400ED2E63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83071F2B1938AD6500ED2E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83071F391938AD6500ED2E63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83071F051938AD6400ED2E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83071F261938AD6400ED2E63 /* TAViewController.m in Sources */,
+				83071F191938AD6400ED2E63 /* main.m in Sources */,
+				83071F1D1938AD6400ED2E63 /* TAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83071F291938AD6500ED2E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83071F3B1938AD6500ED2E63 /* TourismAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83071F331938AD6500ED2E63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83071F081938AD6400ED2E63 /* TourismApp */;
+			targetProxy = 83071F321938AD6500ED2E63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83071F151938AD6400ED2E63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83071F161938AD6400ED2E63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83071F1E1938AD6400ED2E63 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83071F1F1938AD6400ED2E63 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		83071F211938AD6400ED2E63 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83071F221938AD6400ED2E63 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		83071F371938AD6500ED2E63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83071F381938AD6500ED2E63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83071F3C1938AD6500ED2E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83071F3D1938AD6500ED2E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83071F3F1938AD6500ED2E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TourismApp/TourismApp-Prefix.pch";
+				INFOPLIST_FILE = "TourismApp/TourismApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83071F401938AD6500ED2E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TourismApp/TourismApp-Prefix.pch";
+				INFOPLIST_FILE = "TourismApp/TourismApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83071F421938AD6500ED2E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TourismApp.app/TourismApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TourismApp/TourismApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TourismAppTests/TourismAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		83071F431938AD6500ED2E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TourismApp.app/TourismApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TourismApp/TourismApp-Prefix.pch";
+				INFOPLIST_FILE = "TourismAppTests/TourismAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83071F041938AD6400ED2E63 /* Build configuration list for PBXProject "TourismApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83071F3C1938AD6500ED2E63 /* Debug */,
+				83071F3D1938AD6500ED2E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83071F3E1938AD6500ED2E63 /* Build configuration list for PBXNativeTarget "TourismApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83071F3F1938AD6500ED2E63 /* Debug */,
+				83071F401938AD6500ED2E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83071F411938AD6500ED2E63 /* Build configuration list for PBXNativeTarget "TourismAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83071F421938AD6500ED2E63 /* Debug */,
+				83071F431938AD6500ED2E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83071F011938AD6400ED2E63 /* Project object */;
+}
