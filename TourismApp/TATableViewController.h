@@ -1,5 +1,5 @@
 //
-//  TAViewController.h
+//  TATableViewController.h
 //  TourismApp
 //
 //  Created by Alex De Biasi on 30/05/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TAViewController : UIViewController
+@interface TATableViewController : UITableViewController
 
 @end

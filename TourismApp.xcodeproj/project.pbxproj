@@ -15,13 +15,19 @@
 		83071F1D1938AD6400ED2E63 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83071F1C1938AD6400ED2E63 /* TAAppDelegate.m */; };
 		83071F201938AD6400ED2E63 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83071F1E1938AD6400ED2E63 /* Main_iPhone.storyboard */; };
 		83071F231938AD6400ED2E63 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83071F211938AD6400ED2E63 /* Main_iPad.storyboard */; };
-		83071F261938AD6400ED2E63 /* TAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83071F251938AD6400ED2E63 /* TAViewController.m */; };
 		83071F281938AD6400ED2E63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83071F271938AD6400ED2E63 /* Images.xcassets */; };
 		83071F2F1938AD6500ED2E63 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F2E1938AD6500ED2E63 /* XCTest.framework */; };
 		83071F301938AD6500ED2E63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F0C1938AD6400ED2E63 /* Foundation.framework */; };
 		83071F311938AD6500ED2E63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F101938AD6400ED2E63 /* UIKit.framework */; };
 		83071F391938AD6500ED2E63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83071F371938AD6500ED2E63 /* InfoPlist.strings */; };
 		83071F3B1938AD6500ED2E63 /* TourismAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83071F3A1938AD6500ED2E63 /* TourismAppTests.m */; };
+		83DDE3161938BD650011A421 /* TATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDE3151938BD650011A421 /* TATableViewController.m */; };
+		83DDE3181938C2700011A421 /* Place.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83DDE3171938C2700011A421 /* Place.plist */; };
+		83DDE31B1938C74A0011A421 /* TATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDE31A1938C74A0011A421 /* TATableViewCell.m */; };
+		83DDE31D1938C7E70011A421 /* myrow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83DDE31C1938C7E70011A421 /* myrow.xib */; };
+		83DDE3211938C9440011A421 /* solferino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83DDE31F1938C9440011A421 /* solferino.jpg */; };
+		83DDE3221938C9440011A421 /* castello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83DDE3201938C9440011A421 /* castello.jpg */; };
+		83DDE3251938D1CD0011A421 /* TADescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDE3241938D1CD0011A421 /* TADescriptionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +53,22 @@
 		83071F1C1938AD6400ED2E63 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
 		83071F1F1938AD6400ED2E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		83071F221938AD6400ED2E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		83071F241938AD6400ED2E63 /* TAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAViewController.h; sourceTree = "<group>"; };
-		83071F251938AD6400ED2E63 /* TAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAViewController.m; sourceTree = "<group>"; };
 		83071F271938AD6400ED2E63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83071F2D1938AD6500ED2E63 /* TourismAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourismAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83071F2E1938AD6500ED2E63 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		83071F361938AD6500ED2E63 /* TourismAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TourismAppTests-Info.plist"; sourceTree = "<group>"; };
 		83071F381938AD6500ED2E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83071F3A1938AD6500ED2E63 /* TourismAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TourismAppTests.m; sourceTree = "<group>"; };
+		83DDE3141938BD650011A421 /* TATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATableViewController.h; sourceTree = "<group>"; };
+		83DDE3151938BD650011A421 /* TATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATableViewController.m; sourceTree = "<group>"; };
+		83DDE3171938C2700011A421 /* Place.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Place.plist; sourceTree = "<group>"; };
+		83DDE3191938C74A0011A421 /* TATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATableViewCell.h; sourceTree = "<group>"; };
+		83DDE31A1938C74A0011A421 /* TATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATableViewCell.m; sourceTree = "<group>"; };
+		83DDE31C1938C7E70011A421 /* myrow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myrow.xib; sourceTree = "<group>"; };
+		83DDE31F1938C9440011A421 /* solferino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = solferino.jpg; sourceTree = "<group>"; };
+		83DDE3201938C9440011A421 /* castello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = castello.jpg; sourceTree = "<group>"; };
+		83DDE3231938D1CD0011A421 /* TADescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADescriptionViewController.h; sourceTree = "<group>"; };
+		83DDE3241938D1CD0011A421 /* TADescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADescriptionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +98,7 @@
 		83071F001938AD6400ED2E63 = {
 			isa = PBXGroup;
 			children = (
+				83DDE31E1938C9310011A421 /* Immagini */,
 				83071F121938AD6400ED2E63 /* TourismApp */,
 				83071F341938AD6500ED2E63 /* TourismAppTests */,
 				83071F0B1938AD6400ED2E63 /* Frameworks */,
@@ -117,11 +132,17 @@
 				83071F1B1938AD6400ED2E63 /* TAAppDelegate.h */,
 				83071F1C1938AD6400ED2E63 /* TAAppDelegate.m */,
 				83071F1E1938AD6400ED2E63 /* Main_iPhone.storyboard */,
+				83DDE3231938D1CD0011A421 /* TADescriptionViewController.h */,
+				83DDE3241938D1CD0011A421 /* TADescriptionViewController.m */,
+				83DDE3141938BD650011A421 /* TATableViewController.h */,
+				83DDE3151938BD650011A421 /* TATableViewController.m */,
 				83071F211938AD6400ED2E63 /* Main_iPad.storyboard */,
-				83071F241938AD6400ED2E63 /* TAViewController.h */,
-				83071F251938AD6400ED2E63 /* TAViewController.m */,
 				83071F271938AD6400ED2E63 /* Images.xcassets */,
 				83071F131938AD6400ED2E63 /* Supporting Files */,
+				83DDE3171938C2700011A421 /* Place.plist */,
+				83DDE3191938C74A0011A421 /* TATableViewCell.h */,
+				83DDE31A1938C74A0011A421 /* TATableViewCell.m */,
+				83DDE31C1938C7E70011A421 /* myrow.xib */,
 			);
 			path = TourismApp;
 			sourceTree = "<group>";
@@ -153,6 +174,15 @@
 				83071F371938AD6500ED2E63 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83DDE31E1938C9310011A421 /* Immagini */ = {
+			isa = PBXGroup;
+			children = (
+				83DDE31F1938C9440011A421 /* solferino.jpg */,
+				83DDE3201938C9440011A421 /* castello.jpg */,
+			);
+			name = Immagini;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +264,12 @@
 			files = (
 				83071F231938AD6400ED2E63 /* Main_iPad.storyboard in Resources */,
 				83071F281938AD6400ED2E63 /* Images.xcassets in Resources */,
+				83DDE3221938C9440011A421 /* castello.jpg in Resources */,
+				83DDE31D1938C7E70011A421 /* myrow.xib in Resources */,
 				83071F201938AD6400ED2E63 /* Main_iPhone.storyboard in Resources */,
+				83DDE3211938C9440011A421 /* solferino.jpg in Resources */,
 				83071F171938AD6400ED2E63 /* InfoPlist.strings in Resources */,
+				83DDE3181938C2700011A421 /* Place.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83071F261938AD6400ED2E63 /* TAViewController.m in Sources */,
+				83DDE3251938D1CD0011A421 /* TADescriptionViewController.m in Sources */,
+				83DDE31B1938C74A0011A421 /* TATableViewCell.m in Sources */,
 				83071F191938AD6400ED2E63 /* main.m in Sources */,
+				83DDE3161938BD650011A421 /* TATableViewController.m in Sources */,
 				83071F1D1938AD6400ED2E63 /* TAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +507,7 @@
 				83071F401938AD6500ED2E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83071F411938AD6500ED2E63 /* Build configuration list for PBXNativeTarget "TourismAppTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +516,7 @@
 				83071F431938AD6500ED2E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
