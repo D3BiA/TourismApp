@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7278D2B4-273D-4FAC-8205-C00631B7B409</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TourismApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>075F1560-F707-416F-BAD8-E6774D4CDC5B</key>
+		<string>https://github.com/D3BiA/TourismApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TourismApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>075F1560-F707-416F-BAD8-E6774D4CDC5B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/D3BiA/TourismApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>075F1560-F707-416F-BAD8-E6774D4CDC5B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>075F1560-F707-416F-BAD8-E6774D4CDC5B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TourismApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
