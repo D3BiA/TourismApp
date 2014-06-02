@@ -7,8 +7,21 @@
 //
 
 #import "TAPlaceTableViewCell.h"
-
+@interface TAPlaceTableViewCell()
+@property (strong,nonatomic) IBOutlet UIView *rowView;
+@end
 @implementation TAPlaceTableViewCell
+
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if(self) {
+        [[NSBundle mainBundle] loadNibNamed:@"myCustomRow" owner:self options:nil];
+        [self addSubview:self.rowView];
+    }
+    return self;
+}
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

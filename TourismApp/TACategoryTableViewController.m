@@ -7,8 +7,12 @@
 //
 
 #import "TACategoryTableViewController.h"
+#import "TAPlaceTableViewController.h"
 
-@interface TACategoryTableViewController ()
+@interface TACategoryTableViewController () {
+    NSArray *categoryArray;
+    int rowPosition;
+}
 
 @end
 
@@ -27,6 +31,12 @@
 {
     [super viewDidLoad];
     
+    NSString* tmp=[[NSBundle mainBundle] pathForResource:@"TACategories" ofType:@"plist"];
+    categoryArray = [NSArray arrayWithContentsOfFile:tmp];
+    
+    NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:@"name"  ascending:YES];
+    categoryArray = [categoryArray sortedArrayUsingDescriptors:[NSArray arrayWithObjects:descriptor,nil]];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -44,28 +54,35 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
+//#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+//#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [categoryArray count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CategoryCell" forIndexPath:indexPath];
     
     // Configure the cell...
+    if(cell == nil){
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CategoryCell"];
+    }
+    
+    NSDictionary *categoryDict = [categoryArray objectAtIndex:indexPath.row];
+    NSString *categoryName = [categoryDict objectForKey:@"name"];
+    cell.textLabel.text = categoryName;
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -105,7 +122,13 @@
 }
 */
 
-/*
+-(NSIndexPath*) tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    rowPosition = indexPath.row;
+    return indexPath;
+}
+
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -113,7 +136,16 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if([segue.identifier isEqualToString:@"showPlaces"]){
+        //NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        TAPlaceTableViewController *destViewController = segue.destinationViewController;
+        NSDictionary *categoryDict = [categoryArray objectAtIndex:rowPosition];
+        NSString *categoryName = [categoryDict objectForKey:@"name"];
+        NSString *plistName = [categoryDict objectForKey:@"plistName"];
+        destViewController.categoryName = categoryName;
+        destViewController.title = categoryName;
+        destViewController.plistName = plistName;
+    }
 }
-*/
 
 @end

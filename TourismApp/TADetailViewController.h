@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TADetailViewController : UIViewController
-
+@property (strong,nonatomic) NSString *placeName;
+@property (strong,nonatomic) NSString *placeImage;
+@property (strong,nonatomic) NSString *placeDescription;
 @end

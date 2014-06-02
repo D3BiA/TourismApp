@@ -21,13 +21,15 @@
 		83071F311938AD6500ED2E63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F101938AD6400ED2E63 /* UIKit.framework */; };
 		83071F391938AD6500ED2E63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83071F371938AD6500ED2E63 /* InfoPlist.strings */; };
 		83071F3B1938AD6500ED2E63 /* TourismAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83071F3A1938AD6500ED2E63 /* TourismAppTests.m */; };
-		83DDE3161938BD650011A421 /* TATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDE3151938BD650011A421 /* TATableViewController.m */; };
-		83DDE3181938C2700011A421 /* Place.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83DDE3171938C2700011A421 /* Place.plist */; };
-		83DDE31B1938C74A0011A421 /* TATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDE31A1938C74A0011A421 /* TATableViewCell.m */; };
-		83DDE31D1938C7E70011A421 /* myrow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83DDE31C1938C7E70011A421 /* myrow.xib */; };
-		83DDE3211938C9440011A421 /* solferino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83DDE31F1938C9440011A421 /* solferino.jpg */; };
-		83DDE3221938C9440011A421 /* castello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83DDE3201938C9440011A421 /* castello.jpg */; };
-		83DDE3251938D1CD0011A421 /* TADescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DDE3241938D1CD0011A421 /* TADescriptionViewController.m */; };
+		CB6ED2C8193C881F006D2EC8 /* TACategories.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB6ED2C7193C881F006D2EC8 /* TACategories.plist */; };
+		CB6ED2CA193C8BCC006D2EC8 /* TAPiazze.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB6ED2C9193C8BCC006D2EC8 /* TAPiazze.plist */; };
+		CB6ED2D0193C8ED2006D2EC8 /* TACategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6ED2CF193C8ED2006D2EC8 /* TACategoryTableViewController.m */; };
+		CB6ED2D3193CA572006D2EC8 /* TAPlaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6ED2D2193CA572006D2EC8 /* TAPlaceTableViewController.m */; };
+		CB6ED2D5193CACF3006D2EC8 /* myCustomRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6ED2D4193CACF3006D2EC8 /* myCustomRow.xib */; };
+		CB6ED2D8193CAE69006D2EC8 /* TAPlaceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6ED2D7193CAE69006D2EC8 /* TAPlaceTableViewCell.m */; };
+		CB6ED2DA193CB20D006D2EC8 /* san_carlo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB6ED2D9193CB20D006D2EC8 /* san_carlo.jpg */; };
+		CB6ED2DC193CB217006D2EC8 /* piazza_castello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB6ED2DB193CB217006D2EC8 /* piazza_castello.jpg */; };
+		CB6ED2DF193CB404006D2EC8 /* TADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6ED2DE193CB404006D2EC8 /* TADetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,16 +61,19 @@
 		83071F361938AD6500ED2E63 /* TourismAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TourismAppTests-Info.plist"; sourceTree = "<group>"; };
 		83071F381938AD6500ED2E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83071F3A1938AD6500ED2E63 /* TourismAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TourismAppTests.m; sourceTree = "<group>"; };
-		83DDE3141938BD650011A421 /* TATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATableViewController.h; sourceTree = "<group>"; };
-		83DDE3151938BD650011A421 /* TATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATableViewController.m; sourceTree = "<group>"; };
-		83DDE3171938C2700011A421 /* Place.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Place.plist; sourceTree = "<group>"; };
-		83DDE3191938C74A0011A421 /* TATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATableViewCell.h; sourceTree = "<group>"; };
-		83DDE31A1938C74A0011A421 /* TATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATableViewCell.m; sourceTree = "<group>"; };
-		83DDE31C1938C7E70011A421 /* myrow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myrow.xib; sourceTree = "<group>"; };
-		83DDE31F1938C9440011A421 /* solferino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = solferino.jpg; sourceTree = "<group>"; };
-		83DDE3201938C9440011A421 /* castello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = castello.jpg; sourceTree = "<group>"; };
-		83DDE3231938D1CD0011A421 /* TADescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADescriptionViewController.h; sourceTree = "<group>"; };
-		83DDE3241938D1CD0011A421 /* TADescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADescriptionViewController.m; sourceTree = "<group>"; };
+		CB6ED2C7193C881F006D2EC8 /* TACategories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TACategories.plist; sourceTree = "<group>"; };
+		CB6ED2C9193C8BCC006D2EC8 /* TAPiazze.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TAPiazze.plist; sourceTree = "<group>"; };
+		CB6ED2CE193C8ED2006D2EC8 /* TACategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACategoryTableViewController.h; sourceTree = "<group>"; };
+		CB6ED2CF193C8ED2006D2EC8 /* TACategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACategoryTableViewController.m; sourceTree = "<group>"; };
+		CB6ED2D1193CA572006D2EC8 /* TAPlaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPlaceTableViewController.h; sourceTree = "<group>"; };
+		CB6ED2D2193CA572006D2EC8 /* TAPlaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPlaceTableViewController.m; sourceTree = "<group>"; };
+		CB6ED2D4193CACF3006D2EC8 /* myCustomRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myCustomRow.xib; sourceTree = "<group>"; };
+		CB6ED2D6193CAE69006D2EC8 /* TAPlaceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPlaceTableViewCell.h; sourceTree = "<group>"; };
+		CB6ED2D7193CAE69006D2EC8 /* TAPlaceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPlaceTableViewCell.m; sourceTree = "<group>"; };
+		CB6ED2D9193CB20D006D2EC8 /* san_carlo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = san_carlo.jpg; sourceTree = "<group>"; };
+		CB6ED2DB193CB217006D2EC8 /* piazza_castello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piazza_castello.jpg; sourceTree = "<group>"; };
+		CB6ED2DD193CB404006D2EC8 /* TADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADetailViewController.h; sourceTree = "<group>"; };
+		CB6ED2DE193CB404006D2EC8 /* TADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +103,12 @@
 		83071F001938AD6400ED2E63 = {
 			isa = PBXGroup;
 			children = (
-				83DDE31E1938C9310011A421 /* Immagini */,
+				CB6ED2C6193C87BE006D2EC8 /* ContentFile */,
+				83071F0B1938AD6400ED2E63 /* Frameworks */,
+				83DDE31E1938C9310011A421 /* Images */,
+				83071F0A1938AD6400ED2E63 /* Products */,
 				83071F121938AD6400ED2E63 /* TourismApp */,
 				83071F341938AD6500ED2E63 /* TourismAppTests */,
-				83071F0B1938AD6400ED2E63 /* Frameworks */,
-				83071F0A1938AD6400ED2E63 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,17 +138,18 @@
 				83071F1B1938AD6400ED2E63 /* TAAppDelegate.h */,
 				83071F1C1938AD6400ED2E63 /* TAAppDelegate.m */,
 				83071F1E1938AD6400ED2E63 /* Main_iPhone.storyboard */,
-				83DDE3231938D1CD0011A421 /* TADescriptionViewController.h */,
-				83DDE3241938D1CD0011A421 /* TADescriptionViewController.m */,
-				83DDE3141938BD650011A421 /* TATableViewController.h */,
-				83DDE3151938BD650011A421 /* TATableViewController.m */,
 				83071F211938AD6400ED2E63 /* Main_iPad.storyboard */,
 				83071F271938AD6400ED2E63 /* Images.xcassets */,
 				83071F131938AD6400ED2E63 /* Supporting Files */,
-				83DDE3171938C2700011A421 /* Place.plist */,
-				83DDE3191938C74A0011A421 /* TATableViewCell.h */,
-				83DDE31A1938C74A0011A421 /* TATableViewCell.m */,
-				83DDE31C1938C7E70011A421 /* myrow.xib */,
+				CB6ED2CE193C8ED2006D2EC8 /* TACategoryTableViewController.h */,
+				CB6ED2CF193C8ED2006D2EC8 /* TACategoryTableViewController.m */,
+				CB6ED2D1193CA572006D2EC8 /* TAPlaceTableViewController.h */,
+				CB6ED2D2193CA572006D2EC8 /* TAPlaceTableViewController.m */,
+				CB6ED2D4193CACF3006D2EC8 /* myCustomRow.xib */,
+				CB6ED2D6193CAE69006D2EC8 /* TAPlaceTableViewCell.h */,
+				CB6ED2D7193CAE69006D2EC8 /* TAPlaceTableViewCell.m */,
+				CB6ED2DD193CB404006D2EC8 /* TADetailViewController.h */,
+				CB6ED2DE193CB404006D2EC8 /* TADetailViewController.m */,
 			);
 			path = TourismApp;
 			sourceTree = "<group>";
@@ -176,13 +183,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		83DDE31E1938C9310011A421 /* Immagini */ = {
+		83DDE31E1938C9310011A421 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				83DDE31F1938C9440011A421 /* solferino.jpg */,
-				83DDE3201938C9440011A421 /* castello.jpg */,
+				CB6ED2DB193CB217006D2EC8 /* piazza_castello.jpg */,
+				CB6ED2D9193CB20D006D2EC8 /* san_carlo.jpg */,
 			);
-			name = Immagini;
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CB6ED2C6193C87BE006D2EC8 /* ContentFile */ = {
+			isa = PBXGroup;
+			children = (
+				CB6ED2C7193C881F006D2EC8 /* TACategories.plist */,
+				CB6ED2C9193C8BCC006D2EC8 /* TAPiazze.plist */,
+			);
+			name = ContentFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,12 +280,13 @@
 			files = (
 				83071F231938AD6400ED2E63 /* Main_iPad.storyboard in Resources */,
 				83071F281938AD6400ED2E63 /* Images.xcassets in Resources */,
-				83DDE3221938C9440011A421 /* castello.jpg in Resources */,
-				83DDE31D1938C7E70011A421 /* myrow.xib in Resources */,
+				CB6ED2DC193CB217006D2EC8 /* piazza_castello.jpg in Resources */,
+				CB6ED2C8193C881F006D2EC8 /* TACategories.plist in Resources */,
+				CB6ED2D5193CACF3006D2EC8 /* myCustomRow.xib in Resources */,
 				83071F201938AD6400ED2E63 /* Main_iPhone.storyboard in Resources */,
-				83DDE3211938C9440011A421 /* solferino.jpg in Resources */,
+				CB6ED2CA193C8BCC006D2EC8 /* TAPiazze.plist in Resources */,
+				CB6ED2DA193CB20D006D2EC8 /* san_carlo.jpg in Resources */,
 				83071F171938AD6400ED2E63 /* InfoPlist.strings in Resources */,
-				83DDE3181938C2700011A421 /* Place.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83DDE3251938D1CD0011A421 /* TADescriptionViewController.m in Sources */,
-				83DDE31B1938C74A0011A421 /* TATableViewCell.m in Sources */,
+				CB6ED2D3193CA572006D2EC8 /* TAPlaceTableViewController.m in Sources */,
+				CB6ED2D0193C8ED2006D2EC8 /* TACategoryTableViewController.m in Sources */,
+				CB6ED2DF193CB404006D2EC8 /* TADetailViewController.m in Sources */,
 				83071F191938AD6400ED2E63 /* main.m in Sources */,
-				83DDE3161938BD650011A421 /* TATableViewController.m in Sources */,
 				83071F1D1938AD6400ED2E63 /* TAAppDelegate.m in Sources */,
+				CB6ED2D8193CAE69006D2EC8 /* TAPlaceTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

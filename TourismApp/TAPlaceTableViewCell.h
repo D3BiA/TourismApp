@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TAPlaceTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *rowLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *rowImage;
 
 @end

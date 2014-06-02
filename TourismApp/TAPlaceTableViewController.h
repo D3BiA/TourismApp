@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TAPlaceTableViewController : UITableViewController
-
+@property (strong,nonatomic) NSString *categoryName;
+@property (strong,nonatomic) NSString *plistName;
 @end

@@ -9,6 +9,8 @@
 #import "TADetailViewController.h"
 
 @interface TADetailViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *detailImage;
+@property (weak, nonatomic) IBOutlet UILabel *detailDesription;
 
 @end
 
@@ -26,6 +28,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.detailImage.image = [UIImage imageNamed:self.placeImage];
+    self.detailDesription.text = self.placeDescription;
     // Do any additional setup after loading the view.
 }
 
