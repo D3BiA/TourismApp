@@ -1,22 +1,18 @@
 //
-//  TADescriptionViewController.m
+//  TADetailViewController.m
 //  TourismApp
 //
-//  Created by Alex De Biasi on 30/05/14.
+//  Created by Andrea Bianco on 02/06/14.
 //  Copyright (c) 2014 Alex De Biasi. All rights reserved.
 //
 
-#import "TADescriptionViewController.h"
+#import "TADetailViewController.h"
 
-@interface TADescriptionViewController ()
-@property (strong, nonatomic) IBOutlet UIImageView* descimage;
-@property (strong, nonatomic) IBOutlet UILabel* desctitle;
-@property (strong, nonatomic) IBOutlet UILabel* descdescription;
+@interface TADetailViewController ()
+
 @end
 
-@implementation TADescriptionViewController{
-    int pos;
-}
+@implementation TADetailViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,8 +27,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.desctitle.text=[NSString stringWithFormat:@"(%d)",pos];
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,11 +34,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-- (void)setRow:(int)i{
-    pos=i;
-}
-
 
 /*
 #pragma mark - Navigation

@@ -1,22 +1,18 @@
 //
-//  TATableViewController.m
+//  TACategoryTableViewController.m
 //  TourismApp
 //
-//  Created by Alex De Biasi on 30/05/14.
+//  Created by Andrea Bianco on 02/06/14.
 //  Copyright (c) 2014 Alex De Biasi. All rights reserved.
 //
 
-#import "TATableViewController.h"
-#import "TATableViewCell.h"
-#import "TADescriptionViewController.h"
+#import "TACategoryTableViewController.h"
 
-@interface TATableViewController ()
-@property (strong,nonatomic) NSArray* risorse;
+@interface TACategoryTableViewController ()
+
 @end
 
-@implementation TATableViewController{
-    int position;
-}
+@implementation TACategoryTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -27,12 +23,9 @@
     return self;
 }
 
-- (void)viewDidLoad //OnCreate Android
+- (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    NSString* tmp=[[NSBundle mainBundle] pathForResource:@"Place" ofType:@"plist"];
-    self.risorse = [NSArray arrayWithContentsOfFile:tmp];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -53,30 +46,26 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 1;
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return self.risorse.count;
+    return 0;
 }
 
-
+/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    TATableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"myrowidentifier" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    // Configure the cell.
-    int indice=indexPath.row;
-    NSDictionary* mydictionary= self.risorse[indice];
-    cell.mylabel.text=[mydictionary objectForKey:@"name"] ;
-    NSString* image = [mydictionary objectForKey:@"image"];
-    cell.myimage.image=[UIImage imageNamed:image];
+    // Configure the cell...
+    
     return cell;
 }
-
+*/
 
 /*
 // Override to support conditional editing of the table view.
@@ -115,27 +104,16 @@
     return YES;
 }
 */
--(NSIndexPath*) tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    position=indexPath.row;
-    return indexPath;
-}
 
+/*
 #pragma mark - Navigation
 
-//In a storyboard-based application, you will often want to do a little preparation before navigation
+// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    TADescriptionViewController* desvc=[segue destinationViewController];
-    
-    [desvc setRow:position];
-    
-    
-    
-    
-    
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-
+*/
 
 @end
