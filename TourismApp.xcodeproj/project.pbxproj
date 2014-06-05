@@ -74,6 +74,7 @@
 		CB6ED2DB193CB217006D2EC8 /* piazza_castello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piazza_castello.jpg; sourceTree = "<group>"; };
 		CB6ED2DD193CB404006D2EC8 /* TADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADetailViewController.h; sourceTree = "<group>"; };
 		CB6ED2DE193CB404006D2EC8 /* TADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADetailViewController.m; sourceTree = "<group>"; };
+		CBACA3BF1940C953006E0935 /* SDKAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKAPIKey.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +151,7 @@
 				CB6ED2D7193CAE69006D2EC8 /* TAPlaceTableViewCell.m */,
 				CB6ED2DD193CB404006D2EC8 /* TADetailViewController.h */,
 				CB6ED2DE193CB404006D2EC8 /* TADetailViewController.m */,
+				CBACA3BF1940C953006E0935 /* SDKAPIKey.h */,
 			);
 			path = TourismApp;
 			sourceTree = "<group>";
