@@ -11,6 +11,7 @@
 @interface TADetailViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *detailImage;
 @property (weak, nonatomic) IBOutlet UILabel *detailDesription;
+@property (weak, nonatomic) IBOutlet UIButton *pathButton;
 
 @end
 

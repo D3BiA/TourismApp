@@ -21,6 +21,8 @@
 		83071F311938AD6500ED2E63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83071F101938AD6400ED2E63 /* UIKit.framework */; };
 		83071F391938AD6500ED2E63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83071F371938AD6500ED2E63 /* InfoPlist.strings */; };
 		83071F3B1938AD6500ED2E63 /* TourismAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83071F3A1938AD6500ED2E63 /* TourismAppTests.m */; };
+		831F1E9A194601F300F9AD1C /* TAMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F1E99194601F300F9AD1C /* TAMapsViewController.m */; };
+		831F1E9D1946028100F9AD1C /* TADirectionFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F1E9C1946028100F9AD1C /* TADirectionFinder.m */; };
 		83994FDD1940CC0800A8A93E /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83994FDC1940CC0800A8A93E /* GoogleMaps.framework */; };
 		83994FDF1940CC7200A8A93E /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83994FDE1940CC7200A8A93E /* GoogleMaps.bundle */; };
 		83994FE11940CCC700A8A93E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83994FE01940CCC700A8A93E /* AVFoundation.framework */; };
@@ -75,6 +77,10 @@
 		83071F361938AD6500ED2E63 /* TourismAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TourismAppTests-Info.plist"; sourceTree = "<group>"; };
 		83071F381938AD6500ED2E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83071F3A1938AD6500ED2E63 /* TourismAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TourismAppTests.m; sourceTree = "<group>"; };
+		831F1E98194601F300F9AD1C /* TAMapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAMapsViewController.h; sourceTree = "<group>"; };
+		831F1E99194601F300F9AD1C /* TAMapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAMapsViewController.m; sourceTree = "<group>"; };
+		831F1E9B1946028100F9AD1C /* TADirectionFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADirectionFinder.h; sourceTree = "<group>"; };
+		831F1E9C1946028100F9AD1C /* TADirectionFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADirectionFinder.m; sourceTree = "<group>"; };
 		83994FDC1940CC0800A8A93E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		83994FDE1940CC7200A8A93E /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		83994FE01940CCC700A8A93E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -199,6 +205,8 @@
 				83071F131938AD6400ED2E63 /* Supporting Files */,
 				CB6ED2CE193C8ED2006D2EC8 /* TACategoryTableViewController.h */,
 				CB6ED2CF193C8ED2006D2EC8 /* TACategoryTableViewController.m */,
+				831F1E98194601F300F9AD1C /* TAMapsViewController.h */,
+				831F1E99194601F300F9AD1C /* TAMapsViewController.m */,
 				CB6ED2D1193CA572006D2EC8 /* TAPlaceTableViewController.h */,
 				CB6ED2D2193CA572006D2EC8 /* TAPlaceTableViewController.m */,
 				CB6ED2D4193CACF3006D2EC8 /* myCustomRow.xib */,
@@ -218,6 +226,8 @@
 				83071F151938AD6400ED2E63 /* InfoPlist.strings */,
 				83071F181938AD6400ED2E63 /* main.m */,
 				83071F1A1938AD6400ED2E63 /* TourismApp-Prefix.pch */,
+				831F1E9B1946028100F9AD1C /* TADirectionFinder.h */,
+				831F1E9C1946028100F9AD1C /* TADirectionFinder.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -367,8 +377,10 @@
 				CB6ED2D0193C8ED2006D2EC8 /* TACategoryTableViewController.m in Sources */,
 				CB6ED2DF193CB404006D2EC8 /* TADetailViewController.m in Sources */,
 				83071F191938AD6400ED2E63 /* main.m in Sources */,
+				831F1E9D1946028100F9AD1C /* TADirectionFinder.m in Sources */,
 				83071F1D1938AD6400ED2E63 /* TAAppDelegate.m in Sources */,
 				CB6ED2D8193CAE69006D2EC8 /* TAPlaceTableViewCell.m in Sources */,
+				831F1E9A194601F300F9AD1C /* TAMapsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
