@@ -143,10 +143,14 @@
         NSString *placeName = [placeDict objectForKey:@"name"];
         NSString *placeImage = [placeDict objectForKey:@"nameImage"];
         NSString *placeDesc = [placeDict objectForKey:@"description"];
+        NSString *placeLat = [placeDict objectForKey:@"latitudine"];
+        NSString *placeLong = [placeDict objectForKey:@"longitudine"];
         destViewController.placeName = placeName;
         destViewController.title = placeName;
         destViewController.placeImage = placeImage;
         destViewController.placeDescription = placeDesc;
+        destViewController.placeLatitudine = placeLat;
+        destViewController.placeLongitudine = placeLong;
     }
 }
 

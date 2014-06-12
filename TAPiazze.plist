@@ -3,6 +3,10 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>latitudine</key>
+		<string>45.067632</string>
+		<key>longitudine</key>
+		<string>7.682535</string>
 		<key>name</key>
 		<string>Piazza San Carlo</string>
 		<key>nameImage</key>
@@ -11,6 +15,10 @@
 		<string>Piazza San Carlo è una delle più importanti piazze di Torino; può essere definita come il salotto del capoluogo piemontese. Lunga 168 metri e larga 76, la piazza ha una superficie di 12.768 metri quadrati; è inserita all&apos;interno dell&apos;asse viario di Via Roma, che la collega a Piazza Castello e a Piazza Carlo Felice.</string>
 	</dict>
 	<dict>
+		<key>latitudine</key>
+		<string>45.0712815</string>
+		<key>longitudine</key>
+		<string>7.6844785,17</string>
 		<key>name</key>
 		<string>Piazza Castello</string>
 		<key>nameImage</key>

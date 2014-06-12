@@ -24,7 +24,6 @@
 		831F1E9A194601F300F9AD1C /* TAMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F1E99194601F300F9AD1C /* TAMapsViewController.m */; };
 		831F1E9D1946028100F9AD1C /* TADirectionFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F1E9C1946028100F9AD1C /* TADirectionFinder.m */; };
 		83994FDD1940CC0800A8A93E /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83994FDC1940CC0800A8A93E /* GoogleMaps.framework */; };
-		83994FDF1940CC7200A8A93E /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83994FDE1940CC7200A8A93E /* GoogleMaps.bundle */; };
 		83994FE11940CCC700A8A93E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83994FE01940CCC700A8A93E /* AVFoundation.framework */; };
 		83994FE31940CCD300A8A93E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83994FE21940CCD300A8A93E /* CoreData.framework */; };
 		83994FE51940CCDE00A8A93E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83994FE41940CCDE00A8A93E /* CoreLocation.framework */; };
@@ -37,6 +36,9 @@
 		83994FF31940CD4900A8A93E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83994FF21940CD4800A8A93E /* OpenGLES.framework */; };
 		83994FF51940CD5300A8A93E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83994FF41940CD5300A8A93E /* QuartzCore.framework */; };
 		83994FF71940CD5E00A8A93E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83994FF61940CD5E00A8A93E /* SystemConfiguration.framework */; };
+		8B9F6C5119485D1D0048D2B8 /* TASummaryPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F6C5019485D1D0048D2B8 /* TASummaryPathViewController.m */; };
+		CB0F6D981946E910002D636D /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB0F6D971946E910002D636D /* GoogleMaps.bundle */; };
+		CB0F6D9A1946EB29002D636D /* TorinoPos.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CB0F6D991946EB29002D636D /* TorinoPos.gpx */; };
 		CB6ED2C8193C881F006D2EC8 /* TACategories.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB6ED2C7193C881F006D2EC8 /* TACategories.plist */; };
 		CB6ED2CA193C8BCC006D2EC8 /* TAPiazze.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB6ED2C9193C8BCC006D2EC8 /* TAPiazze.plist */; };
 		CB6ED2D0193C8ED2006D2EC8 /* TACategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6ED2CF193C8ED2006D2EC8 /* TACategoryTableViewController.m */; };
@@ -82,7 +84,6 @@
 		831F1E9B1946028100F9AD1C /* TADirectionFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADirectionFinder.h; sourceTree = "<group>"; };
 		831F1E9C1946028100F9AD1C /* TADirectionFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADirectionFinder.m; sourceTree = "<group>"; };
 		83994FDC1940CC0800A8A93E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		83994FDE1940CC7200A8A93E /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		83994FE01940CCC700A8A93E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		83994FE21940CCD300A8A93E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		83994FE41940CCDE00A8A93E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -95,6 +96,10 @@
 		83994FF21940CD4800A8A93E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		83994FF41940CD5300A8A93E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		83994FF61940CD5E00A8A93E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8B9F6C4F19485D1D0048D2B8 /* TASummaryPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TASummaryPathViewController.h; sourceTree = "<group>"; };
+		8B9F6C5019485D1D0048D2B8 /* TASummaryPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASummaryPathViewController.m; sourceTree = "<group>"; };
+		CB0F6D971946E910002D636D /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		CB0F6D991946EB29002D636D /* TorinoPos.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TorinoPos.gpx; sourceTree = "<group>"; };
 		CB6ED2C7193C881F006D2EC8 /* TACategories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TACategories.plist; sourceTree = "<group>"; };
 		CB6ED2C9193C8BCC006D2EC8 /* TAPiazze.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TAPiazze.plist; sourceTree = "<group>"; };
 		CB6ED2CE193C8ED2006D2EC8 /* TACategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACategoryTableViewController.h; sourceTree = "<group>"; };
@@ -108,7 +113,6 @@
 		CB6ED2DB193CB217006D2EC8 /* piazza_castello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piazza_castello.jpg; sourceTree = "<group>"; };
 		CB6ED2DD193CB404006D2EC8 /* TADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADetailViewController.h; sourceTree = "<group>"; };
 		CB6ED2DE193CB404006D2EC8 /* TADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADetailViewController.m; sourceTree = "<group>"; };
-		CBACA3BF1940C953006E0935 /* SDKAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKAPIKey.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 		83071F001938AD6400ED2E63 = {
 			isa = PBXGroup;
 			children = (
+				CB0F6D991946EB29002D636D /* TorinoPos.gpx */,
 				CB6ED2C6193C87BE006D2EC8 /* ContentFile */,
 				83071F0B1938AD6400ED2E63 /* Frameworks */,
 				83DDE31E1938C9310011A421 /* Images */,
@@ -172,6 +177,7 @@
 		83071F0B1938AD6400ED2E63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB0F6D971946E910002D636D /* GoogleMaps.bundle */,
 				83994FF61940CD5E00A8A93E /* SystemConfiguration.framework */,
 				83994FF41940CD5300A8A93E /* QuartzCore.framework */,
 				83994FF21940CD4800A8A93E /* OpenGLES.framework */,
@@ -184,7 +190,6 @@
 				83994FE41940CCDE00A8A93E /* CoreLocation.framework */,
 				83994FE21940CCD300A8A93E /* CoreData.framework */,
 				83994FE01940CCC700A8A93E /* AVFoundation.framework */,
-				83994FDE1940CC7200A8A93E /* GoogleMaps.bundle */,
 				83994FDC1940CC0800A8A93E /* GoogleMaps.framework */,
 				83071F0C1938AD6400ED2E63 /* Foundation.framework */,
 				83071F0E1938AD6400ED2E63 /* CoreGraphics.framework */,
@@ -214,7 +219,8 @@
 				CB6ED2D7193CAE69006D2EC8 /* TAPlaceTableViewCell.m */,
 				CB6ED2DD193CB404006D2EC8 /* TADetailViewController.h */,
 				CB6ED2DE193CB404006D2EC8 /* TADetailViewController.m */,
-				CBACA3BF1940C953006E0935 /* SDKAPIKey.h */,
+				8B9F6C4F19485D1D0048D2B8 /* TASummaryPathViewController.h */,
+				8B9F6C5019485D1D0048D2B8 /* TASummaryPathViewController.m */,
 			);
 			path = TourismApp;
 			sourceTree = "<group>";
@@ -346,15 +352,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				83071F231938AD6400ED2E63 /* Main_iPad.storyboard in Resources */,
+				CB0F6D981946E910002D636D /* GoogleMaps.bundle in Resources */,
 				83071F281938AD6400ED2E63 /* Images.xcassets in Resources */,
 				CB6ED2DC193CB217006D2EC8 /* piazza_castello.jpg in Resources */,
 				CB6ED2C8193C881F006D2EC8 /* TACategories.plist in Resources */,
 				CB6ED2D5193CACF3006D2EC8 /* myCustomRow.xib in Resources */,
 				83071F201938AD6400ED2E63 /* Main_iPhone.storyboard in Resources */,
 				CB6ED2CA193C8BCC006D2EC8 /* TAPiazze.plist in Resources */,
+				CB0F6D9A1946EB29002D636D /* TorinoPos.gpx in Resources */,
 				CB6ED2DA193CB20D006D2EC8 /* san_carlo.jpg in Resources */,
 				83071F171938AD6400ED2E63 /* InfoPlist.strings in Resources */,
-				83994FDF1940CC7200A8A93E /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +383,7 @@
 				CB6ED2D3193CA572006D2EC8 /* TAPlaceTableViewController.m in Sources */,
 				CB6ED2D0193C8ED2006D2EC8 /* TACategoryTableViewController.m in Sources */,
 				CB6ED2DF193CB404006D2EC8 /* TADetailViewController.m in Sources */,
+				8B9F6C5119485D1D0048D2B8 /* TASummaryPathViewController.m in Sources */,
 				83071F191938AD6400ED2E63 /* main.m in Sources */,
 				831F1E9D1946028100F9AD1C /* TADirectionFinder.m in Sources */,
 				83071F1D1938AD6400ED2E63 /* TAAppDelegate.m in Sources */,

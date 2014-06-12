@@ -4,13 +4,19 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string>Piazze</string>
+		<string>Squares</string>
 		<key>plistName</key>
 		<string>TAPiazze</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Monumenti</string>
+		<string>Museums</string>
+		<key>plistName</key>
+		<string>TAMusei</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Monuments</string>
 		<key>plistName</key>
 		<string>TAMonumenti</string>
 	</dict>

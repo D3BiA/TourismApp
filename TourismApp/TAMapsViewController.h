@@ -10,4 +10,8 @@
 
 @interface TAMapsViewController : UIViewController
 
+@property (strong,nonatomic) NSString *latitudine;
+@property (strong,nonatomic) NSString *longitudine;
+@property (strong,nonatomic) NSString *name;
+
 @end

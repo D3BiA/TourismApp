@@ -12,4 +12,6 @@
 @property (strong,nonatomic) NSString *placeName;
 @property (strong,nonatomic) NSString *placeImage;
 @property (strong,nonatomic) NSString *placeDescription;
+@property (strong,nonatomic) NSString *placeLatitudine;
+@property (strong,nonatomic) NSString *placeLongitudine;
 @end

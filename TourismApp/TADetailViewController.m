@@ -7,11 +7,12 @@
 //
 
 #import "TADetailViewController.h"
+#import "TAMapsViewController.h"
 
 @interface TADetailViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *detailImage;
 @property (weak, nonatomic) IBOutlet UILabel *detailDesription;
-@property (weak, nonatomic) IBOutlet UIButton *pathButton;
+@property (weak, nonatomic) IBOutlet UIButton *buttonMap;
 
 @end
 
@@ -40,7 +41,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -48,7 +49,12 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-}
-*/
+    if([segue.identifier isEqualToString:@"showMap"]){
+        
+        TAMapsViewController *destViewController = segue.destinationViewController;
+        destViewController.latitudine = self.placeLatitudine;
+        destViewController.longitudine = self.placeLongitudine;
+        destViewController.name = self.placeName;
+    }}
 
 @end
