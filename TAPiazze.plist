@@ -10,7 +10,10 @@
 		<key>name</key>
 		<string>Piazza San Carlo</string>
 		<key>nameImage</key>
-		<string>san_carlo.jpg</string>
+		<array>
+			<string>san_carlo.jpg</string>
+			<string>piazza_castello.jpg</string>
+		</array>
 		<key>description</key>
 		<string>Piazza San Carlo è una delle più importanti piazze di Torino; può essere definita come il salotto del capoluogo piemontese. Lunga 168 metri e larga 76, la piazza ha una superficie di 12.768 metri quadrati; è inserita all&apos;interno dell&apos;asse viario di Via Roma, che la collega a Piazza Castello e a Piazza Carlo Felice.</string>
 	</dict>
@@ -22,7 +25,11 @@
 		<key>name</key>
 		<string>Piazza Castello</string>
 		<key>nameImage</key>
-		<string>piazza_castello.jpg</string>
+		<array>
+			<string>piazza_castello.jpg</string>
+			<string>san_carlo.jpg</string>
+			<string>piazza_castello.jpg</string>
+		</array>
 		<key>description</key>
 		<string>Piazza Castello è la piazza principale di Torino, cuore del centro storico della città: vi sono situati importanti palazzi cittadini, quali Palazzo Reale e Palazzo Madama. In piazza Castello confluiscono quattro dei principali assi viari del centro: via Garibaldi (pedonale), via Po, via Roma e via Pietro Micca.</string>
 	</dict>

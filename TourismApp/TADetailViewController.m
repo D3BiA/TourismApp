@@ -10,9 +10,9 @@
 #import "TAMapsViewController.h"
 
 @interface TADetailViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *detailImage;
 @property (weak, nonatomic) IBOutlet UILabel *detailDesription;
 @property (weak, nonatomic) IBOutlet UIButton *buttonMap;
+@property (strong, nonatomic) IBOutlet UIScrollView *scroller;
 
 @end
 
@@ -30,9 +30,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.detailImage.image = [UIImage imageNamed:self.placeImage];
     self.detailDesription.text = self.placeDescription;
     // Do any additional setup after loading the view.
+    
+    for (int i = 0; i < self.placeImage.count; i++) {
+        CGRect frame;
+        frame.origin.x = self.scroller.frame.size.width * i;
+        frame.origin.y = 0;
+        frame.size = self.scroller.frame.size;
+        
+        UIImageView *subview = [[UIImageView alloc] initWithFrame:frame];
+        subview.image=[UIImage imageNamed:self.placeImage[i]];
+        [self.scroller addSubview:subview];
+    }
+    
+    self.scroller.contentSize = CGSizeMake(self.scroller.frame.size.width * self.placeImage.count, self.scroller.frame.size.height);
 }
 
 - (void)didReceiveMemoryWarning

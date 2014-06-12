@@ -76,10 +76,10 @@
     
     NSDictionary *categoryDict = [contentArray objectAtIndex:indexPath.row];
     NSString *placeName = [categoryDict objectForKey:@"name"];
-    NSString *placeImage = [categoryDict objectForKey:@"nameImage"];
+    NSArray *placeImage = [categoryDict objectForKey:@"nameImage"];
     
     cell.rowLabel.text = placeName;
-    cell.rowImage.image = [UIImage imageNamed:placeImage];
+    cell.rowImage.image = [UIImage imageNamed:placeImage[0]];
     
     return cell;
 }
@@ -141,7 +141,7 @@
         TADetailViewController *destViewController = segue.destinationViewController;
         NSDictionary *placeDict = [contentArray objectAtIndex:rowPosition];
         NSString *placeName = [placeDict objectForKey:@"name"];
-        NSString *placeImage = [placeDict objectForKey:@"nameImage"];
+        NSArray *placeImage = [placeDict objectForKey:@"nameImage"];
         NSString *placeDesc = [placeDict objectForKey:@"description"];
         NSString *placeLat = [placeDict objectForKey:@"latitudine"];
         NSString *placeLong = [placeDict objectForKey:@"longitudine"];
