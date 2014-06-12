@@ -31,7 +31,7 @@
     self.distanceLabel.text = self.distance;
     self.timeLabel.text = self.time;
     
-    NSString *htmlString = [self.instructions componentsJoinedByString:@"<br>"];
+    NSString *htmlString = [self.instructions componentsJoinedByString:@"<br><hr>"];
     NSAttributedString *string = [[NSAttributedString alloc] initWithData:[htmlString dataUsingEncoding:NSUTF8StringEncoding] options:@{NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType, NSCharacterEncodingDocumentAttribute: [NSNumber numberWithInt:NSUTF8StringEncoding]} documentAttributes:nil error:nil];
     self.instrunctionsLabel.attributedText = string;
     
