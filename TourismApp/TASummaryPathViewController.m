@@ -11,7 +11,7 @@
 @interface TASummaryPathViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *distanceLabel;
 @property (weak, nonatomic) IBOutlet UILabel *timeLabel;
-@property (weak, nonatomic) IBOutlet UILabel *instrunctionsLabel;
+@property (weak, nonatomic) IBOutlet UITextView *instructionsLabel;
 @end
 
 @implementation TASummaryPathViewController
@@ -31,11 +31,9 @@
     self.distanceLabel.text = self.distance;
     self.timeLabel.text = self.time;
     
-    NSString *htmlString = [self.instructions componentsJoinedByString:@"<br><hr>"];
+    NSString *htmlString = [self.instructions componentsJoinedByString:@"<br><br>"];
     NSAttributedString *string = [[NSAttributedString alloc] initWithData:[htmlString dataUsingEncoding:NSUTF8StringEncoding] options:@{NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType, NSCharacterEncodingDocumentAttribute: [NSNumber numberWithInt:NSUTF8StringEncoding]} documentAttributes:nil error:nil];
-    self.instrunctionsLabel.attributedText = string;
-    
-    //self.navigationItem.leftBarButtonItem.title = @"Back to map";
+    self.instructionsLabel.attributedText = string;
     
     // Do any additional setup after loading the view.
 }
@@ -45,6 +43,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation
@@ -56,5 +55,8 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)backToHome:(UIButton*)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
 
 @end

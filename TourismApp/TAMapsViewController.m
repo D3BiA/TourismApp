@@ -37,7 +37,7 @@
     
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:[self.latitudine doubleValue]
                                                             longitude:[self.longitudine doubleValue]
-                                                                 zoom:12];
+                                                                 zoom:13];
     
     mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView_.settings.compassButton = YES;
@@ -84,7 +84,7 @@
         NSLog(@"%@",str);
         
         GMSMarker *markerStart= [GMSMarker markerWithPosition:location.coordinate];
-        markerStart.icon = [GMSMarker markerImageWithColor:[UIColor blueColor]];
+        markerStart.icon = [GMSMarker markerImageWithColor:[UIColor greenColor]];
         markerStart.title = @"You are here";
         markerStart.map = mapView_;
         [waypoints_ addObject:markerStart];

@@ -10,10 +10,8 @@
 #import "TAMapsViewController.h"
 
 @interface TADetailViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *detailDesription;
-@property (weak, nonatomic) IBOutlet UIButton *buttonMap;
+@property (weak, nonatomic) IBOutlet UITextView *detailDesription;
 @property (strong, nonatomic) IBOutlet UIScrollView *scroller;
-
 @end
 
 @implementation TADetailViewController
@@ -69,4 +67,7 @@
         destViewController.name = self.placeName;
     }}
 
+- (IBAction)backHome:(UIButton*)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
 @end
